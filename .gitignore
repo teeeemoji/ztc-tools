@@ -1,7 +1,7 @@
 *.iml
 *.log
 *.log.*
-.idea/
+.idea
 .ipr
 .iws
 *~
@@ -27,3 +27,4 @@ spm_modules
 dist
 tests/*.css
 yarn.lock
+tmp
