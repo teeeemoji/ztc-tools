@@ -1,26 +1,43 @@
-# testing
+# ztc-tools
 
+offline tools for react component
 
 
 ## Installation
 
 ```console
-$ npm install testing
+$ npm install ztc-tools
 ```
 ## Usage
 
 Example:
 
 ```console
-testing here is usage example
+Usage:
+
+
+           $ ztc-tools run lint             lint source within lib
+           $ ztc-tools run start            start server
+           $ ztc-tools run build            build
+           $ ztc-tools run pub              publish component
+           $ ztc-tools run pretter          pretter all code
+           $ ztc-tools run test             test component
+           $ ztc-tools run init-eslint      generate eslint configuration file
+           $ ztc-tools run chrome-test      run chrome tests
 ```
 
 ## Related
 
-- [plop][plop] - Consistency Made Simple
+## Todo
+
+- lint command
+- pub command
+- pretter command
+- init-eslint
+- chrome-test
+
 
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
 
-[plop]: https://github.com/amwmedia/plop
